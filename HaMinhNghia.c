@@ -1,6 +1,3 @@
-#include <stdio.h>
-using namespace std;
-
 int add(int x, int y) {
     return x+y;
 }
@@ -10,7 +7,7 @@ int main() {
     a = 2; b = 4; c = 5;
     int sum = add(a, b);
 
-    cout<<sum<<"\n";
+    printf(sum);
 
     return 0;
 }
