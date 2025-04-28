@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-extern int a, b, c; 
+extern float  a, b, c; 
 
-void tinh_toan_nguyen() {
-    printf("Hieu: %d\n", a - b - c);
+void sub(float a, float b,float c) {
+    return a-b-c;
 }
